@@ -1,0 +1,96 @@
+:root {
+  --text-color: #6091d3;
+  --white: white;
+}
+
+div.is-hidden {
+  display: none;
+}
+
+div.is-visible {
+  display: block;
+}
+
+body {
+  text-align: center;
+  user-select: none;
+}
+
+h1 {
+  padding: 10px;
+  margin: auto;
+  font-weight: bold;
+  color: var(--text-color);
+}
+
+h2 {
+  padding: 26px;
+  margin: auto;
+}
+
+p {
+  padding: 10px;
+  margin: auto;
+  width: 300px;
+  font-weight: bold;
+  color: var(--text-color);
+}
+
+#start1:hover {
+  background: var(--text-color);
+  color: var(--white);
+  cursor: pointer;
+}
+
+#start2:hover {
+  background: var(--text-color);
+  color: var(--white);
+  cursor: pointer;
+}
+
+#start3:hover {
+  background: var(--text-color);
+  color: var(--white);
+  cursor: pointer;
+}
+
+#start4:hover {
+  background: var(--text-color);
+  color: var(--white);
+  cursor: pointer;
+}
+
+#game {
+  margin-right: auto;
+  margin-left: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  align-content: stretch;
+  width: 400px;
+}
+
+#game.pointer-none {
+  pointer-events: none;
+}
+
+.field {
+  width: 100px;
+  height: 100px;
+  padding: 0;
+  margin: 0;
+  color: var(--text-color);
+  border: solid 3px var(--text-color);
+  border-radius: 10px;
+}
+
+.field:hover {
+  background: rgb(243, 236, 227);
+  border: 2px solid #333;
+  cursor: pointer;
+}
+
+#top {
+  height: 25%;
+}
